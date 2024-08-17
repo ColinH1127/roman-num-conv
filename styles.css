@@ -1,0 +1,62 @@
+*, ::before, ::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #660000;
+    font-family: "Gideon Roman", serif;
+  }
+  h1 {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #FFD700;
+  }
+  form {
+    display: flex;
+    justify-content: center;
+  }
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 400px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-color: #FFD700; 
+    background-color: #1B1B1B;
+    box-shadow: 2px 2px 2px #1B1B1B;
+  }
+  #convert-btn {
+    width: 200px;
+    height: 50px;
+    background-color: #FFD700;
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-family: "Gideon Roman", serif;
+  }
+  #number {
+    width: 100px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+  #output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 125px;
+    background-color: #1B1B1B;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid#FFD700; 
+    box-shadow: 2px 2px 2px #1B1B1B;
+  }
+  #result-text {
+    font-size: 1.8rem;
+    color: #FFD700;
+    text-align: center;
+  }
